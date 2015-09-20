@@ -1,0 +1,12 @@
+{
+  "name": "ThirdEngine/Factory",
+  "autoload": {
+    "psr-4" : {
+	    "ThirdEngine\\Factory\\" : "src"
+    }
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "phpunit/phpunit": "4.3.*"
+  }
+}
