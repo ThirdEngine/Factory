@@ -192,7 +192,9 @@ class Factory
 
     /**
      * This method will create a new query object with the static create method. This
-     * should be used when creating query objects even though createNewObject() will work.
+     * should be used when creating query objects even though createNewObject() will work. This is
+     * to accommodate the proper practice using the Propel ORM to use QueryObject::create() instead of
+     * new QueryObject().
      *
      * @param  $className
      * @param  $modelAlias
