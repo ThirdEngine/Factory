@@ -1,5 +1,6 @@
 {
   "name": "ThirdEngine/Factory",
+  "description": "Provides object creation that makes mocking and good unit testing easy.",
   "autoload": {
     "psr-4" : {
 	    "ThirdEngine\\Factory\\" : "src"
