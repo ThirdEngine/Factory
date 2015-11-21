@@ -1,5 +1,17 @@
 {
   "name": "ThirdEngine/Factory",
+  "type": "library",
+  "keywords": ["factory", "unit"],
+  "homepage": "https://github.com/ThirdEngine/Factory",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tony Vance",
+      "email": "tony.vance@latentcodex.com",
+      "homepage": "http://www.thirdenginesoftware.com",
+      "role": "Chief Architect"
+    }
+  ],
   "description": "Provides object creation that makes mocking and good unit testing easy.",
   "autoload": {
     "psr-4" : {
